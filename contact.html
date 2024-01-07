@@ -51,32 +51,26 @@
         </nav>
       </div>
     </div>
-
-    <div class="tm-row">
-      <div class="tm-col-left"></div>
-      <main class="tm-col-right tm-contact-main">
-        <!-- Content -->
-        <section class="tm-content tm-contact">
-          <h2 class="mb-4 tm-content-title">Contact Us</h2>
-          <p class="mb-85">If you would like to contact us, play with you, ask any questions, and more, please fill
-            out the information below and we will get right back to you instantly.</p>
-          <form id="contact-form" action="" method="POST" netlify>
-            <div class="form-group mb-4">
-              <input type="text" name="name" class="form-control" placeholder="Name" required="" />
-            </div>
-            <div class="form-group mb-4">
-              <input type="email" name="email" class="form-control" placeholder="Email" required="" />
-            </div>
-            <div class="form-group mb-5">
-              <textarea rows="6" name="message" class="form-control" placeholder="Message..." required=""></textarea>
-            </div>
-            <div class="text-right">
-              <button type="submit" class="btn btn-big btn-primary">Send!</button>
-            </div>
-          </form>
-        </section>
-      </main>
-    </div>
+  
+    <form action="https://formspree.io/f/xeqyqwer" method="POST" style="max-width: 400px; margin: 0 auto; font-family: Arial, sans-serif;">
+      <label style="display: block; margin-bottom: 10px;">
+        <span style="font-weight: bold; display: block; margin-bottom: 5px;">Your Name:</span>
+        <input type="text" name="name" style="width: 100%; padding: 8px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px;">
+      </label>
+    
+      <label style="display: block; margin-bottom: 10px;">
+        <span style="font-weight: bold; display: block; margin-bottom: 5px;">Your Email:</span>
+        <input type="email" name="email" style="width: 100%; padding: 8px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px;">
+      </label>
+    
+      <label style="display: block; margin-bottom: 20px;">
+        <span style="font-weight: bold; display: block; margin-bottom: 5px;">Your Message:</span>
+        <textarea name="message" style="width: 100%; height: 100px; padding: 8px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+      </label>
+    
+      <button type="submit" style="background-color: #4CAF50; color: white; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer; font-size: 16px;">Send</button>
+    </form>
+    
 
     <div class="tm-row">
       <div class="tm-col-left text-center">
@@ -91,10 +85,10 @@
           <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
             <input type="hidden" name="cmd" value="_s-xclick" />
             <input type="hidden" name="hosted_button_id" value="4L3MLE6J5VAEN" />
-            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0"
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
               name="submit" title="PayPal - The safer, easier way to pay online!"
               alt="Donate with PayPal button" />
-            <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+            <img alt="" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
           </form>
           <p class="mb-0">Copyright 2023 Limitless Entertainment | Design: <a rel="nofollow" href="https://linktr.ee/JordanLeich"
             class="tm-text-link">Jordan Leich</a></p>
